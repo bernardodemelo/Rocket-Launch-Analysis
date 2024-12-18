@@ -1,0 +1,55 @@
+Launch Time                    object Date
+Launch Status                  object Enum turned string
+Launch Suborbital              object Always Orbital?
+Rocket Name                    object String
+Rocket Organisation            object String
+Rocket Price                  float64
+Rocket Payload to LEO         float64
+Location                       object String
+Launch Year                     int64
+Launch Year Mon                object String
+USD/kg to LEO                 float64
+2021 Mult                     float64
+USD/kg to LEO CPI Adjusted    float64
+Rocket Price CPI Adjusted     float64
+Dum                             int64
+Orig_Addr                      object String
+Country                        object String
+Country_Code                   object String
+Lat                           float64
+Lon                           float64
+Operator                       object String
+Launch Site                    object String
+Launch Site Lat               float64
+Launch Site Lon               float64
+Comb Launch Site               object String
+Comb Launch Site Lat          float64
+Comb Launch Site Lon          float64
+Operator Lat                  float64
+Operator Lon                  float64
+Family Id                       int64
+No_x                          float64
+Config                         object String
+Status                         object String
+Price                          object int
+Liftoff Thrust                 object int, string transform first rm ' kN'
+Payload to LEO                 object int, string rm of ' kg'
+Payload to GTO                 object int, string rm of ' kg'
+Stages                        float64
+Strap-ons                     float64
+Rocket Height                  object rm ' m'
+Fairing Diameter               object rm ' m'
+Fairing Height                 object rm ' m'
+Family                         object String
+Missions                      float64
+Successes                     float64
+Partial Failures              float64
+Failures                      float64
+Success Streak                float64
+Success Rate                   object %
+Company Name                   object String
+Company Country                object String
+Ownership                      object String
+No_y                          float64
+Payloads                      float64
+Mass                          float64
